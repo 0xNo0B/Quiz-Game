@@ -16,6 +16,13 @@ code {
   border: 1px solid #000;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(
+    220deg,
+    #ff4343 0%,
+    #ecbd32 31%,
+    rgba(140, 66, 66, 0.41) 87%,
+    #611c1c 100%
+  );
 }
 
 .quiez {
@@ -24,6 +31,13 @@ code {
   justify-content: center;
   height: 50%;
   width: 50%;
+  /* From https://css.glass */
+  background: rgba(255, 0, 0, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 0, 0, 1);
 }
 
 .buttons {
@@ -51,16 +65,19 @@ code {
 
 .quis {
   text-align: center;
+  text-transform: uppercase;
   position: absolute;
-  top: 30%;
+  top: 4%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .btn-correct {
-  background: rgba(0, 128, 0, 0.809);
+  background: rgba(232, 90, 2, 0.809);
+  border: 0px;
 }
 
 .btn-wrong {
   background: rgba(255, 0, 0, 0.759);
+  border: 0px;
 }
