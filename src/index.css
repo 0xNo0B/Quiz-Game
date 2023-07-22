@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  display: flex;
+  border: 1px solid #000;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiez {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+}
+
+.buttons {
+  display: grid;
+  row-gap: 3.4rem;
+  column-gap: 10rem;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  height: 40%;
+  margin-top: 10rem;
+}
+
+.btn {
+  border: 1px solid gray;
+  background: white;
+  object-fit: fill;
+  width: 19rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(128, 128, 128, 0.155);
+}
+
+.quis {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-correct {
+  background: rgba(0, 128, 0, 0.809);
+}
+
+.btn-wrong {
+  background: rgba(255, 0, 0, 0.759);
+}
